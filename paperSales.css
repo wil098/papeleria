@@ -5,10 +5,12 @@ body {
     display: grid;
     align-self: center;
     justify-content: center;
+    margin-top: 100px;
 }
 .mainSelector{
     display: grid;
     grid-template-columns: 1fr 1fr;
+    
 }
 .box{
     display: grid;
@@ -34,7 +36,7 @@ body {
     display: grid;
     width: 400px;
     height: 400px;
-
+    
 }
 
 
@@ -138,4 +140,11 @@ body {
     text-align: center;
     width: 200px;
     margin: 0 auto;
+}
+
+.totalPrice{
+    display: grid;
+    justify-content: center;
+    grid-column: span 2;
+    text-align: center;
 }
