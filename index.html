@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculador de papeleria</title>
+    <link rel="stylesheet" href="/paperSales.css">
+</head>
+<body>
+    <section class="mainContainer">
+        <div class="box">
+            <div class="titulo">
+                <h1>CALCULADORA DE PRECIOS</h1>
+                </div>
+
+            <div class="mainSelector">
+                <div class="cajaPaper">
+    
+                    <div class="paperBox">
+                        <p class="namePapel">Papel</p>
+                        <div class="papel">
+                            <form class="opPaper">
+                                <input type="radio" id="bond" name="paper" value="bond">
+                                <label for="bond">Bond</label>
+                                <input type="radio" name="paper" id="quimico" value="quimico">
+                                <label for="quimico">Quimico</label>
+                            </form>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="cajaSize">
+                    <div class="sizeBox">
+                        <p class="nameSize">Tamaño</p>
+                        
+                        <div class="size">
+                            <div class="optionSize">
+                            <form class="opSize">
+                                <input type="radio" name="size" id="carta" value="carta">
+                                <label for="carta">Carta</label>
+                                <input type="radio" name="size" id="oficio" value="oficio">
+                                <label for="oficio">Oficio</label>
+                                <br>
+                                <input type="radio" name="size" id="halfCarta" value="halfCarta">
+                                <label for="halfCarta">1/2 Carta</label>
+                                <input type="radio" name="size" id="halfOficio" value="halfOficio">
+                                <label for="halfOficio">1/2 Oficio</label>
+
+                            </form>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="cajaSheets">
+                    <div class="sheetsBox">
+                        <p class="nameSheets"> Hojas por juego</p>
+                    </div>
+
+                    <div class="sheets">
+                        <div class="optionSheets">
+                            <form class="opSheets">
+                                <input type="radio" name="sheets" id="1" value="1">
+                                <label for="1">1</label>
+                                <input type="radio" name="sheets" id="2" value="2">
+                                <label for="2">2</label>
+                                <input type="radio" name="sheets" id="3" value="3">
+                                <label for="3">3</label>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
